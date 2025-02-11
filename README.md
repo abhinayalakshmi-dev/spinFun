@@ -14,5 +14,5 @@ You can view the rotating circles effect in the browser by opening the index.htm
 HTML
 CSS (Flexbox, Animation)
 
-sample output:
+
 ![image](https://github.com/user-attachments/assets/bbb89972-fd47-47d8-8b5e-37c0a9ec22c0)
