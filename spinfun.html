@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>circle</title>
+    <style>
+      .cont {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+      }
+      .cir1 {
+        height: 500px;
+        width: 500px;
+        border: 20px solid pink;
+        border-radius: 50%;
+        border-top: 50px solid indianred;
+        border-left: 50px solid grey;
+        border-right: 50px solid grey;
+        border-bottom: 50px solid indianred;
+        margin: 20px;
+        position: relative;
+      }
+      .cir2 {
+        width: 400px;
+        height: 400px;
+        border: 20px solid pink;
+        border-radius: 50%;
+        margin-top: 25px;
+        margin-left: 25px;
+        border-top: 20px solid grey;
+        border-left: 20px solid indianred;
+        border-right: 20px solid indianred;
+        border-bottom: 20px solid grey;
+      }
+      .cir3 {
+        width: 300px;
+        height: 300px;
+        border: 20px solid black;
+        border-radius: 50%;
+        margin-top: 30px;
+        margin-left: 30px;
+        border-top: 20px solid indianred;
+        border-left: 20px solid grey;
+        border-right: 20px solid grey;
+        border-bottom: 20px solid indianred;
+      }
+      .cir4 {
+        width: 200px;
+        height: 200px;
+        border: 20px solid indianred;
+        border-radius: 50%;
+        margin-top: 35px;
+        margin-left: 35px;
+        border-top: 20px solid grey;
+        border-left: 20px solid indianred;
+        border-right: 20px solid indianred;
+        border-bottom: 20px solid grey;
+      }
+      .cir5 {
+        width: 100px;
+        height: 100px;
+        border: 20px solid black;
+        border-radius: 50%;
+        margin-top: 30px;
+        margin-left: 30px;
+        border-top: 20px solid indianred;
+        border-left: 20px solid grey;
+        border-right: 20px solid grey;
+        border-bottom: 20px solid indianred;
+      }
+      * {
+        animation-name: spin;
+        animation-duration: 10s;
+        animation-iteration-count: 2;
+        animation-timing-function: ease-in;
+        animation-delay: 5sec;
+      }
+
+      @keyframes spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+    <head>
+      <div class="cont">
+        <div class="cir1">
+          <div class="cir2">
+            <div class="cir3">
+              <div class="cir4">
+                <div class="cir5"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </head>
+  </head>
+</html>
